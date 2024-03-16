@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Cliente {
     private String nome;
@@ -11,13 +12,25 @@ public class Cliente {
         this.Celular= Celular;
         this.Email= Email;
     }
+    public String getNome() {
 
-    public String getEmail() {
-        return Email;
+        return nome;
     }
 
-    public void setEmail(String email) {
-        Email = email;
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCPF() {
+        return CPF;
+    }
+
+    public void setCPF(String CPF) {
+        this.CPF = CPF;
+    }
+    public String getEmail() {
+        return Email;
+
     }
 
     public String getCelular() {
@@ -28,25 +41,16 @@ public class Cliente {
         Celular = celular;
     }
 
-    public String getCPF() {
-        return CPF;
-    }
-
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
+    public void setEmail(String email) {
+        Email = email;
     }
 
 
-    public String getNome() {
-        return nome;
-    }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
     @Override
     public String toString() {
-        return nome + " " + CPF + " " + Celular + " " + Email;
+        System.out.println("-----------------------------------------------");
+        return "nome : " + nome + " " + "CPF: " + CPF + " " +"Celular: "+ Celular + " "+ "Email: " + Email;
     }
 }
 

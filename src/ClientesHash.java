@@ -1,14 +1,31 @@
+
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class ClientesHash  {
+
     public static void main(String[] args){
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Cadastrando cliente");
+        System.out.printf("Informe o CPF do cliente :\n");
+        var a = ler.nextInt();
+        System.out.printf("Informe o nome do cliente:\n");
+        var n = ler.next();
+        System.out.printf("Informe o numero do cliente:\n");
+       var cel = ler.next();
+        System.out.printf("Informe seu email:\n");
+        var  e = ler.next();
+        criandoCliente(String.valueOf(a),n,cel, e);
+  }
 
-        HashMap<Integer,Cliente> clientes = new HashMap<Integer,Cliente>();
-        clientes.put(1,new Cliente("Ingrid","079077863","(88)99650-4395","oli@gamil.com"));
-        clientes.put(2,new Cliente("Ingrid2","079077864","(88)99650-4395","oli@gamil.com"));
-        clientes.put(3,new Cliente("Ingrid3","079077865","(88)99650-4395","oli@gamil.com"));
-        clientes.put(4,new Cliente("Ingrid4","079077866","(88)99650-4395","oli@gamil.com"));
+    public static void criandoCliente(String a, String n, String cel, String e){
 
-        System.out.println( clientes.get(1));
+
+        HashMap<String,Cliente> clientes = new HashMap<String,Cliente>();
+        clientes.put(a, new Cliente(n, a, cel, e));
+
+        System.out.println( clientes.get(a));
+        System.out.println(clientes);
     }
+
 }
