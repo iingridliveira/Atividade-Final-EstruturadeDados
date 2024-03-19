@@ -5,7 +5,7 @@
 <img src="imagem.png" alt="Exemplo imagem">
 
 >Codigo desenvolvido parar resolver problema de busca pelo cliente ecolhendo algum tipo de estrutura de dados propostas pelo curso,
->usando a lingugem de programação em java.
+>usando a lingugem de programação  Java.
 
 ## 💻 Origem
 
