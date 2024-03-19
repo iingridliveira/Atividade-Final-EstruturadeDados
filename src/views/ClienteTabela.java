@@ -1,10 +1,14 @@
+package views;
+
+import Buscarapida.Cliente;
+
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
 
 public class ClienteTabela extends AbstractTableModel {
 
-    //aqui transformei em coluna cada propriedade de Cliente
+    //aqui transformei em coluna cada propriedade de Buscarapida.Cliente
     //que eu quero que seja exibida na tabela
     private String colunas[] = {"nome", "CPF", "Celular", "E-mail"};
     private ArrayList<Cliente> clientes;

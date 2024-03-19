@@ -1,3 +1,5 @@
+package views;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -44,7 +46,7 @@ class MyFrame
     // with default values.
     public MyFrame()
     {
-        setTitle("Sistema de Registro de clientes");
+        setTitle("Buscarapida.Sistema de Registro de clientes");
         setBounds(300, 90, 900, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
@@ -52,7 +54,7 @@ class MyFrame
         c = getContentPane();
         c.setLayout(null);
 
-        title = new JLabel("Sistema de Registro de clientes");
+        title = new JLabel("Buscarapida.Sistema de Registro de clientes");
         title.setFont(new Font("Arial", Font.PLAIN, 30));
         title.setSize(300, 30);
         title.setLocation(300, 30);
@@ -178,7 +180,7 @@ class MyFrame
                         ;
                 tout.setText(data );
                 tout.setEditable(false);
-                res.setText("Registration Successfully..");
+                res.setText("views.Registration Successfully..");
             }
             else {
 

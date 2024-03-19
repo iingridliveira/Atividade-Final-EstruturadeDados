@@ -1,3 +1,7 @@
+package Buscarapida;
+
+import Buscarapida.Cliente;
+
 import java.util.HashMap;
 
 import java.util.Scanner;
@@ -53,7 +57,7 @@ public class Sistema {
         Cliente cliente = new Cliente(nome, cpf, celular, email);
         clientes.put(cpf, cliente);
 
-        System.out.println("Cliente cadastrado");
+        System.out.println("Buscarapida.Cliente cadastrado");
     }
 
     private static void ConsultarCliente(Scanner ler) {
@@ -63,13 +67,13 @@ public class Sistema {
         Cliente cliente = clientes.get(cpf);
 
         if (cliente != null) {
-            System.out.println("\n--- Cliente Encontrado ---");
+            System.out.println("\n--- Buscarapida.Cliente Encontrado ---");
             System.out.println("Nome: " + cliente.getNome());
             System.out.println("CPF: " + cliente.getCPF());
             System.out.println("Celular: " + cliente.getCelular());
             System.out.println("Email: " + cliente.getEmail() + "\n");
         } else {
-            System.out.println("Cliente não encontrado para o CPF informado.");
+            System.out.println("Buscarapida.Cliente não encontrado para o CPF informado.");
         }
     }
 

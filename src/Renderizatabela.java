@@ -1,4 +1,7 @@
 
+import Buscarapida.Cliente;
+import views.ClienteTabela;
+
 import java.awt.*;
 import java.util.ArrayList;
 import javax.swing.*;
@@ -25,7 +28,7 @@ public class Renderizatabela extends JFrame {
 
     private void renderizarTela() {
         c = getContentPane();
-        title = new JLabel("Sistema de Registro de clientes");
+        title = new JLabel("Buscarapida.Sistema de Registro de clientes");
         title.setFont(new Font("Arial", Font.PLAIN, 30));
         title.setSize(300, 30);
         title.setLocation(300, 30);

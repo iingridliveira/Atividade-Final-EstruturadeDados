@@ -1,3 +1,5 @@
+package Buscarapida;
+
 import java.util.Scanner;
 
 public class Cliente {
