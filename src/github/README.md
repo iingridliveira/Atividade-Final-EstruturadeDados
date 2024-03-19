@@ -35,25 +35,41 @@ Equipe 33
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src=""/><br>
+        <img src="muca.png"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Samuel</b>
         </sub>
       </a>
     </td>
-    <td align="center">
+     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src=""/><br>
+        <img src="drew.jpg"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Andrew</b>
         </sub>
       </a>
     </td>
-    <td align="center">
+     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src=" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="eu.jpg"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Ingrid</b>
+        </sub>
+      </a>
+    </td>
+ <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="beneh.png"/><br>
+        <sub>
+          <b>Benedito</b>
+        </sub>
+      </a>
+    </td>
+ <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="gabi.jpg"/><br>
+        <sub>
+          <b>Grabriela</b>
         </sub>
       </a>
     </td>
