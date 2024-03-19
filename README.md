@@ -29,7 +29,7 @@
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Equipe 33
 
 <table>
   <tr>
