@@ -28,7 +28,7 @@ https://github.com/iingridliveira/Atividade-Final-EstruturadeDados/assets/132861
 
 
 
-## 🚀Habilidade desenvolvidas
+## 🚀Habilidade aplicadas
 
 
 - Usar linguangem de programação Java
