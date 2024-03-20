@@ -12,7 +12,7 @@ https://github.com/iingridliveira/Atividade-Final-EstruturadeDados/assets/132861
 >Codigo desenvolvido parar resolver problema de busca pelo cliente ecolhendo algum tipo de estrutura de dados propostas pelo curso,
 >usando a lingugem de programação  Java.
 
-##📄 Aexo 1 Estrutura de dados
+##📄 Anexo 1 Estrutura de dados
  
 <h3>Documento</h3>
 <a href="https://drive.google.com/file/d/1VDeij08L65CxKWorbWdkZAiC_Be3dQ6T/view?usp=sharing">Encontre aqui📄</a>
