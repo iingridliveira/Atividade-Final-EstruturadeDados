@@ -14,7 +14,7 @@ https://github.com/iingridliveira/Atividade-Final-EstruturadeDados/assets/132861
 
 # 📄 Aexo 1 Estrutura de dados
  
-<h3>Documento<a href="https://drive.google.com/file/d/1ACVwT7cJdcw8yNBZWptgGE6e7eHwp_hu/view?usp=sharing](https://drive.google.com/file/d/1VDeij08L65CxKWorbWdkZAiC_Be3dQ6T/view?usp=sharing)"></a></h3>
+<h3>Documento<a href="https://drive.google.com/file/d/1VDeij08L65CxKWorbWdkZAiC_Be3dQ6T/view?usp=sharing"></a></h3>
 
 ## 👩‍💻 Origem
 
